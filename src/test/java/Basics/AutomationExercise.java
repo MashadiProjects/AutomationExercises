@@ -58,8 +58,8 @@ public class AutomationExercise {
 
 
         // Populate the signup form
-        driver.findElement(By.name("name")).sendKeys("Marang");
-        driver.findElement(By.xpath("//input[@data-qa='signup-email']")).sendKeys("rangki@work.com");
+        driver.findElement(By.name("name")).sendKeys("Bareng");
+        driver.findElement(By.xpath("//input[@data-qa='signup-email']")).sendKeys("Bare@work.com");
         Thread.sleep(1000);
         driver.findElement(By.xpath("//button[normalize-space()='Signup']")).click();
         driver.findElement(By.id("id_gender1")).click();
@@ -101,7 +101,7 @@ public class AutomationExercise {
 
 
         // Fill in the address form
-        driver.findElement(By.xpath("//input[@id='first_name']")).sendKeys("Marang");
+        driver.findElement(By.xpath("//input[@id='first_name']")).sendKeys("Bareng");
         driver.findElement(By.id("last_name")).sendKeys("Molefe");
         driver.findElement(By.id("company")).sendKeys("Kgosi Holdings");
         driver.findElement(By.id("address1")).sendKeys("85 Inner Way");
